@@ -30,6 +30,7 @@ namespace fukuv0620
             if (yosou==answer)
             {
                 MessageBox.Show("Bingo!!");
+                count = 0;
             }
             else if(yosou>answer)
             {
@@ -43,6 +44,7 @@ namespace fukuv0620
 
 
             }
+ 
         }
     }
 }
